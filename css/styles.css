@@ -1,0 +1,89 @@
+/*containers*/
+.container-fluid {
+    font-family: 'EB Garamond', serif;
+    font-size: 1.5rem;
+}
+
+.black-container {
+    background-color: #000;
+    color: #fff;
+    padding: 2% 5%;
+}
+
+.gray-container {
+    background-color: #7A7878;
+    padding: 3% 5%;
+}
+
+main {
+    padding: 3% 5%;
+}
+
+
+/*navbar*/
+#logo {
+    width: 50%;
+}
+
+.nav-link {
+    padding: 0 18px !important;
+}
+.nav-link:hover {
+    border-bottom: solid 1px #fff;
+}
+
+/*carousel section*/
+.carousel-inner{
+    text-align: center;
+}
+
+.carousel-inner img {
+    width: 60%;
+}
+
+/*main*/
+main {
+    background-image: url("../images/main-bg.jpg");
+    font-size: 0.7em;
+}
+
+.white-div {
+    background: rgba(255, 255,255, 0.5);
+    transition: background 1s;
+    padding: 5% 5%;
+}
+    
+
+.white-div:hover {
+    background: rgba(255,255,255,1);
+}
+
+/*section-contact*/
+.contact{
+    font-size: 0.7em;
+    color: #fff;
+}
+/*map*/
+.mapouter{
+    position:relative;
+    text-align:center;
+    height:100%;
+    width:100%;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    width:100% !important;;
+    height:100% !important;;
+}
+
+/*footer*/
+footer {
+    font-size: 0.5em;
+    text-align: center;
+}
+
+.radno-vreme {
+    line-height: 0.7;
+}
